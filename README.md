@@ -9,6 +9,8 @@ Magento2 Z-Ray plugin represented in this repository extends profiling data avai
 
 Using the Magento2 Z-Ray plugin you can track heavy constructors, blocks rendering calls, behavior extension by plugins, number of observers listening to specific event and time on their execution.
 
+![ScreenShot](/doc/screenshots/magento2-zray_fullscreen.png)
+
 Installation
 ------------
 **Step 1**: Install the latest version of [Zend Server](http://www.zend.com/en/products/server/downloads).
@@ -45,10 +47,22 @@ NOTE: The directory and file names of zray/zray.php must not be changed. The nam
 Data available in the Magento 2 Z-Ray plugin
 ------------
 - **Events**: lists all the Magento events triggered by the request. For each event next information is available: event's name, class, method and target, as well as how long the event lasted.
+
+![ScreenShot](/doc/screenshots/events_tab.png)
+
 - **Rendered Blocks**: lists all rendered blocks involved in current page build process, including performance profiling.
 - **Blocks**: outlines all the Magento blocks used on the page, including information on their template and class.
+
+![ScreenShot](/doc/screenshots/blocks_tab.png)
+
 - **Plugins**: lists all plugins created during the request processing with mapping to intercepted class.
+
+![ScreenShot](/doc/screenshots/plugins_tab.png)
+
 - **Intercepted methods**: full information on intercepted class/method with list of its plugins and time on their execution.
+
+![ScreenShot](/doc/screenshots/intercepted_methods_tab.png)
+
 - **Created objects**: lists all objects created on the page with time spent in constructor.
 - **Observers**: all observers registered in configuration with ability to filter by area.
 - **Modules**: lists Magento installed modules.
