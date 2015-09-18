@@ -74,3 +74,4 @@ More Information
 - [Z-Ray documentation](http://files.zend.com/help/Zend-Server/zend-server.htm#z-ray_concept.htm)
 - [Z-Ray extension API](https://github.com/zend-server-plugins/Documentation)
 - [Z-Ray plugin for Magento1](https://github.com/zend-server-extensions/Z-Ray-Magento)
+- [Up And Running With Z-Ray For Magento2 (Complete installation guide)](http://mageclass.com/up-and-running-with-zray-for-magento2/)
